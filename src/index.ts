@@ -4,7 +4,11 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (_req, res) => {
-  res.json('¡Hola desde tu API REST con TypeScript y Express!');
+ res.json({
+    status: 'success',
+    message: '¡Bienvenido a la API del ecommerce!',
+    data: null
+  });
 });
 
 app.listen(PORT, () => {
