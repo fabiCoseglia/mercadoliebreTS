@@ -1,0 +1,23 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model products {
+  id          Int               @id
+  name        String            @db.VarChar(255)
+  price       Decimal           @db.Decimal(10, 2)
+  discount    Int               @default(0)
+  category    products_category
+  description String?           @db.Text
+  image       String?           @db.VarChar(255)
+}
+
+enum products_category {
+  in_sale @map("in-sale")
+  visited
+}
