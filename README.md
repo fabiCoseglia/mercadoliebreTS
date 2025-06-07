@@ -329,7 +329,7 @@ y deberíamos obtener el listado de productos cargados en la base de datos MySQL
 
 ## ✅ Conclusión y proximos pasos:
 
-Hasta acá implementé un ORM, las peticiones y la forma de usarlo es muuy similar a secquelize, es cuestion de leer la docs o consultar a las ias, siempre con afinando el ojo para no hacer un copy paste indescriminado.
+Hasta acá implementé un ORM, las peticiones y la forma de usarlo es muuy similar a secquelize, es cuestion de leer la docs o consultar a las ias, siempre afinando el ojo para no hacer un copy paste indescriminado.
 
 utilicé solo un método que es traer a todos los productos, les dejo esta base por si les sirve, trataré de seguir implementando el proyecto sobre todo porque tengo conocimientos ultra limitados con TS. cualquier cosa pueden clonar el proyecyo e intentar algo similar y mucho mas completo. 
 
